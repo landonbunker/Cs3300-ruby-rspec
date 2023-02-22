@@ -61,7 +61,7 @@ end
 
 
 def starts_with_consonant? s
-  if s[0]) in ['a','e','i','o','u','A','E','I','O','U']
+  if s[0] in ['a','e','i','o','u','A','E','I','O','U']
     return false
   else
     return true
@@ -80,7 +80,6 @@ end
 
 
 class BookInStock
-
 
   def initialize(isbn, price)
 
@@ -119,4 +118,5 @@ class BookInStock
   def price_as_string 
      
     return "$"+ @Price
+  end
 end
